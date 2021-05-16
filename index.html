@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="src/styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Mina&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/9ece49577a.js" crossorigin="anonymous"></script>
+        <title>Danijela Dolic Portfolio</title>
+        <meta charset="UTF-8"/> 
+    </head>
+   
+    <body>
+        <nav>
+            <img class="logo-photo" src="/landing-page/images/logo.png" alt="logo_photo">
+
+           
+            <ul class ="nav-bar" id = 'nav-list'>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="https://github.com/danijeladolic">GitHub</a></li>
+                <li><a href="pages/contact.html">Contact me</a></li>
+            </ul>
+            <button class="hamburger" id ="hamburger">
+                <i class="fas fa-bars"></i>
+
+            </button>
+
+        </nav>
+
+
+        <section class="hero">
+            <div class="hero-info">
+                <h1 id="name">Danijela Dolic</h1>
+                <p>I wear a title of a bacc.ing.comp. who loves to learn! Creating new stuff makes brings me happiness. </p>
+                <img src="images/avatar.jpeg"
+                    alt="avatar">
+                <div class="styled-break"></div>
+                <button class="button">Hire me</button>
+            </div >
+            <div>
+                <img 
+                    class="hero-image"
+                    src="images/work.png" 
+                    alt="work image"
+                />
+            </div>
+
+        </section>
+
+
+
+        <section id="about-me">
+           <div class="about-me">
+                <img 
+                    src="images/avatar.jpeg" 
+                    alt="avatar">
+           </div>
+           <div class="info">
+               <h2> About me</h2>
+               <p>
+                After four years of high school, my interests took me in a technical direction to the Faculty of Electrical Engineering, Mechanical Engineering and Naval Architecture in Split(Croatia) where I graduated as a bacc.ing-comp.
+                  I have not stopped the learning process since my last(but not final) degree. I am currently searching to fulfill a first professional vaccancie in Germany. Be the first to hire me!
+               </p>
+           </div>
+        </section>
+        
+        <section>
+            <form>
+                <h2>Contact Me</h2>
+                <div class="input-section">
+                        <div class="input-group">
+                            <label for="first-name">First name:</label>
+                            <input type="text" id="first_name" value=""></input>
+                        </div>
+                        <div class="input-group">
+                            <label for="last-name">Last name:</label>
+                            <input type="text" id="last-name" value=""></input>
+                </div>
+                </div>
+                <div> 
+                    <input type="radio" name="office" id="office" value="office">
+                    <label for="office">Office</label>
+                    <input type="radio" name="remote" id="remote" value="remote">
+                    <label for="remote">Remote</label>
+                    <input type="radio" name="other" id="other" value="other">
+                    <label for="other">Other</label>
+                </div>
+                <div>
+                    <input type="checkbox" id ="contract" name="contract" value="contract">
+                    <label for="contract">Contract work</label>
+                    <input type="checkbox" id ="full-time" name="full-time" value="full-time">
+                    <label for="full-time">Full-time</label>
+                    <input type="checkbox" id ="sponsorship" name="sponsorship" value="sponsorship">
+                    <label for="sponsorship">Sponsorship</label>
+                </div>
+        
+        
+                <input class="button " id="sub" type="submit" value="submit" ></input>
+                
+            </form>
+        </section>
+        </section>
+        
+        <footer class="footer">
+            <ul class="footer-list">
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="pages/contact.html">Contact me</a></li>
+                <li>GitHub</li>
+            </ul>
+        </footer>
+    <script src="src/index.js"></script>
+    </body>
+</html>
